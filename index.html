@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS e Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark stiky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand me-auto" href="#">Foto<span class="text-danger">luces</span> </a>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Foto<span class="text-danger">luces</span></h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="acerca.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="portafolio.html">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="text-secondary me-3" href="https://www.facebook.com/?locale=es_LA"><i class="bi bi-facebook"></i></a>
+      <a class="text-secondary me-3" href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+      <a class="text-secondary me-3" href="https://x.com/?lang=es"><i class="bi bi-twitter-x"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <hr>
+
+  <section>
+    <div class="container-fluid mt-4 presentacion">
+      <div class="row">
+        <div class="col-lg-6">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/fotografia2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/boda.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/familia.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/retrato.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 my-4 text-center align-self-center">
+          <h1>Bienvenidos a Foto<span class="text-danger">luces</span></h1>
+          <p>Somos una empresa fotográfica encargada de capturar <br> tus mejores momentos, con los mejores fotógrafos.</p>
+          <a href="acerca.html"><button class="btn btn-success">Conocer más</button></a>
+          <a class="ms-2 link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="contacto.html">
+            Contrátanos
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="mt-5 bg-naranja p-2">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col fs-5 col-6 col-sm-4">
+                <i class=" fa-solid fa-lightbulb"></i>
+                <p>Creatividad</p>
+            </div>
+            <div class="col fs-5 col-6 col-sm-4">
+                <i class="fa-solid fa-star"></i>
+                <p>Calidad</p>
+            </div>
+            <div class="col fs-5 col-sm-4">
+                <i class="fa-solid fa-medal"></i>
+                <p>Experiencia</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

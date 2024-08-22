@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-negro{
+    background-color: black;
+}
+
+.bg-naranja{
+    background-color: rgb(255, 88, 27);
+}
+
+.acerca, .servicios, .portafolio{
+    height: 22em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info{
+    margin-bottom: 4em;
+}
+
+.min-margin{
+    margin-top: -0.5em;
+}
+
+.box-testimonios{
+    background-color: rgb(63, 63, 63);
+    padding: 1em;
+}
+
+.section-header{
+    padding-bottom: 15px;
+}
+
+.icon-area{
+    text-align: center;
+}
+
+.icon-area i{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    width: 80%;
+    margin: auto;
+}
+
+.img-area{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    border: 8px inset white;
+    margin-bottom: 30px;
+}
+
+.content h5{
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.carousel-indicators{
+    bottom: -80px;
+}
+
+#carouselExampleIndicators [data-bs-target]{
+    width: 60px;
+    height: 10px;
+    background-color: white;
+}
+
+.gallery-item{
+    background-color: white;
+    padding: 0.8em;
+    cursor: pointer;
+}
+
+.crecer{
+    transition-property:transform, background-color, color;
+    transition-duration: 500ms;
+}
+
+.crecer:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.icono{
+    color: #198745;
+    transition-property: background-color, color;
+    transition-duration: 500ms;
+}
+
+.icono:hover{
+    color: white;
+    background-color: #198745;
+}
+
+
+.testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(63, 63, 63);
+    padding: 1em;
+}
+
+.slide p{
+    padding: 0 100px;
+}
