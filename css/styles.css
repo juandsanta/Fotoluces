@@ -5,7 +5,7 @@
 }
 
 .bg-negro{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.888);
 }
 
 .bg-naranja{
@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 3rem;
 }
 
 .info{
@@ -116,10 +117,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(63, 63, 63);
+    background-color: black;
     padding: 1em;
 }
 
 .slide p{
     padding: 0 100px;
+}
+
+.presentacion{
+    padding-top: 4rem;
 }
